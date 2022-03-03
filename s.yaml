@@ -34,7 +34,7 @@ services:
         codeUri: './code'
         runtime: custom
         timeout: 300
-        memorySize: 1536
+        memorySize: 3072
         instanceConcurrency: 8
         customRuntimeConfig:
           command:
